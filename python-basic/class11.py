@@ -26,7 +26,7 @@ while a>0:
 print("reverse of your number is :",rev)"""
 
 
-#question4:-(checking palindrme number)
+#question4:-(checking palindrome number)
 """a = int(input("enter a number : "))
 copy =a 
 rev=0
@@ -39,8 +39,8 @@ else:
     print("your entered number is not palindrome")"""
 
 
-#Question5:-
-a = int(input("enter a number : "))
+#Question5:-(checking automorphic number)
+"""a = int(input("enter a number : "))
 copy =a 
 count=0
 
@@ -55,4 +55,4 @@ extract = square%(10**count)
 if extract==copy:
     print("Your entered number is automorphic")
 else:
-    print("your entered number is not automorphic")
+    print("your entered number is not automorphic")"""

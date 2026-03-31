@@ -125,6 +125,8 @@ print(b)
 
 #9 :- reverse the list (2nd method)
 
+"""
+
 a = [10,20,30,40,50]
 b= len(a)-1
 
@@ -132,3 +134,75 @@ for i in range(len(a)//2):
     a[i],a[b] = a[b],a[i]
     b = b-1
 print(a)
+
+"""
+
+#10 :- linear search on list
+"""
+a = [1,20,8,31,99,57,45,33,9,99,201.101]
+search = 102
+
+for i in range(len(a)):
+    if a[i] == search:
+        print(f"Found element at index {i}")
+        break
+else:
+    print("your element is not exist in list")
+    
+"""
+
+#11 :- Binary search on list for search an element(array should be sorted before)
+"""
+a = [1,3,8,14,16,21,29,35,41,44,47,53,59,66,71,75,88]
+
+search = 0
+
+start = 0 
+last = len(a)-1
+mid = (start + last)//2
+
+while start <= last:
+    if a[mid] == search:
+        print(f"Your search element found at index {mid}")
+        break
+    elif a[mid]<search:
+        start = mid +1
+        mid = (start + last)//2
+    elif a[mid]>search:
+        last = mid -1
+        mid = (start + last)//2
+else:
+    print("Your search element is not exist")
+    
+"""
+
+#12 :- bubble sort 
+"""
+a = [1,20,8,31,99,57,45,33,9,99,201,101]
+
+for j in  range(len(a)-1):
+    for i in range(len(a)-1-j):
+        if a[i]>a[i+1]:
+            a[i],a[i+1] = a[i+1],a[i]
+print(a)
+
+"""
+
+#12 :- insertion sorting(pick smallest element and put this in its correct position)
+
+"""
+a = [1,20,8,31,99,57,45,33,9,99,201,101,22,31,53,69,112,228]
+
+for i in range(len(a)-1):
+    j = i + 1
+    min = i 
+    for k in range(j,len(a)-1):
+        if a[k] < a [min]:
+            min = k
+    a[i],a[min] = a[min],a[i]
+
+print(a)
+
+"""
+
+

@@ -1,4 +1,4 @@
-"""Function is a block of code inwhich we write a code that does a particuklar task .
+"""Function is a block of code in which we write a code that perform a particuklar task .
 like to find factorial,addition,multiplication etc. and we use this block of code by calling"""
 
 # there are two types of function : 1. Inbuilt and 2. made by user
@@ -27,7 +27,7 @@ print(Greet())
 """
 #3
 
-def addition(a,b): # a,b are the PARAMETER which accepts the value form function calling
+def addition(a,b): # a,b are the "PARAMETER" which accepts the value form function calling
     print(a + b)
 
 addition(12,45) # 12,45  both are the ARGUMENTS which is going to "addtition function"
@@ -66,7 +66,7 @@ print(pallindrome(196)) #False
 def addition(a,b,c):
     print(a+b+c)
 
-# addition(b=12,56)   positional argument cant appear after keyword argument(at 56 there is an error) we write this like print(b=12,a=56)
+# addition(b=12,56)   positional argument can't appear after keyword argument(at 56 there is an error) we write this like print(b=12,a=56)
 
 #addition(56,b=12,c=10) 
 

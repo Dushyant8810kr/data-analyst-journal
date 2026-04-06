@@ -11,12 +11,12 @@ print(type(s)) #<class 'set'>
 
 """
 
-#you can store hasable values in set.
+#you can only store hasable values in set.
 """s = {10,"hello",(10,20,30)}
 
 print(hash(10)) """# hasable numbers are exactly of same value of number (10)
 
-#erroor:- we can't store a list into set but tuple can. because we cant change a list to hasable number.
+#eroor:- we can't store a list into set but tuple can. because we cant change a list to hasable number.
 
 
 #set has unordered nature.
@@ -35,7 +35,7 @@ print(s)""" #{0, 10, 20, 30} not prints the duplicate values
 #set dont have indexing to access the elements of set becuase of unordered nature.so we cant do slicing in set.
 
 # set constructer:-
-#firstly you make list then covert it to set
+#firstly you make list then convert it to set.
 """a = [1,2,3,3,3,10,9,913,31,31,55,44,33,9,9,11,11,11]
 
 s = set(a)

@@ -65,7 +65,7 @@ for i in a.values():
 #5:-
 #keys() :- return the set-like object providing the view on the dict's keys
 
-#help(dict)
+help(dict)
 
 #6:-
 #pop() :- D.pop(k[,d]) -> v, remove specified key and return the corresponding value.  If the key is not found, return the default if given; otherwise,raise a KeyError.
@@ -75,11 +75,12 @@ for i in a.values():
 
 
 #8:-
-a = {10:100,20:200,30:300}
+"""a = {10:100,20:200,30:300}
 b = {40:400,50:500,60:600}
 
 a.update(b)    # merge dict b to dict a
 
-print(a)
+
+print(a)"""
 
 

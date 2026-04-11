@@ -303,3 +303,56 @@ pass    ->do nothing
 ternary ->short form
 
 """
+
+#class 8 :-
+"""
+PYTHON REVISION NOTES (Loops)
+1. Loops :-
+Loops are used to perform repetitive tasks.
+
+2. Types of Loops:-
+for loop → when number of iterations is known
+while loop → when condition is known
+
+3. range() Function :-
+range(start, stop, step)
+Example:
+for i in range(5):
+    print(i)  # 0 to 4
+
+4. Examples:-
+# 10 to 40
+for i in range(10, 41):
+    print(i)
+# -10 to 20
+for i in range(-10, 21):
+    print(i)
+# 34 to 5
+for i in range(34, 4, -1):
+    print(i)
+
+5. Table Program:-
+n = int(input("Enter number: "))
+for i in range(n, n*10+1, n):
+    print(i)
+
+6. String Loop:-
+s = "Dushyant"
+for i in s:
+    print(i)
+for i in range(len(s)):
+    print(s[i])
+
+YOUR MISTAKES :-
+1. Forgot that range(5) starts from 0
+2. Confusion in step direction
+3. Skipped some questions
+
+SUMMARY:-
+Concept -> Key Point
+range   -> stop  excluded
+default start   -> 0
+step    -> direction matters
+string loop -> value vs index
+
+"""

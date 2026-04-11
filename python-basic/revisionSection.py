@@ -246,3 +246,60 @@ All True
 
 
 """
+
+
+#class 6:-
+"""
+PYTHON REVISION NOTES (Conditional Statements):-
+
+1. if-else Statement
+age = int(input("Enter age: "))
+if age >= 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
+
+2. pass Keyword:-
+if age >= 18:
+    pass
+else:
+    print("Not allowed")
+
+3. Ternary Operator :-
+print("Vote") if age >= 18 else print("Not Vote")
+
+4. elif Ladder :-
+money = int(input("Enter money: "))
+if money == 10:
+    print("Choco bar")
+elif money == 20:
+    print("Mango dolly")
+elif money == 30:
+    print("Cone")
+else:
+    print("Meal")
+
+5. Logical Conditions :-
+a = 10
+b = 40
+c = 30
+if a > b and a > c:
+    print("A is largest")
+elif b > a and b > c:
+    print("B is largest")
+else:
+    print("C is largest")
+
+YOUR MISTAKES:-
+1. Wrong condition range (used 55 instead of 50)
+2. Unnecessary conditions like <=100
+3. Need cleaner logic writing
+ 
+SUMMARY
+Concept Key Point:-
+if-else ->decision making
+elif    ->ladder checking
+pass    ->do nothing
+ternary ->short form
+
+"""

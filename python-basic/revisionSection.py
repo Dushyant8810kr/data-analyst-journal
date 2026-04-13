@@ -356,3 +356,66 @@ step    -> direction matters
 string loop -> value vs index
 
 """
+
+#class 12 :-
+"""
+PYTHON REVISION NOTES (Functions):-
+1. What is Function?
+A function is a block of code used to perform a specific task and can be reused.
+
+2. Types of Functions:-
+1. Inbuilt functions (print, len, etc.)
+2. User-defined functions
+
+3. Function Syntax:-
+def greet():
+    print("Hello")
+greet()
+
+4. print vs return:-
+def f():
+    print(10)
+def g():
+    return 10
+print() → only displays output
+return → sends value back to caller
+
+5. Parameters & Arguments:-
+def add(a, b):  # parameters
+    return a + b
+add(10, 20)  # arguments
+
+6. Default Arguments:-
+def add(a, b=10):
+    return a + b
+ Rule: Default arguments must come after non-default arguments
+def add(a, b=10):
+    print(a + b)
+add(5)      # 15
+add(5, 20)  # 25
+
+7. Example: Even/Odd Function:-
+def check(n):
+    if n % 2 == 0:
+        return "Even"
+    else:
+        return "Odd" 
+
+8. Factorial Function:-
+def factorial(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
+
+YOUR MISTAKES:-
+1. Confusion between print and return
+2. Function stops after first return
+3. Weak explanation of errors
+
+SUMMARY:-
+Concept -> Key Point
+functionn -> reusability
+return    -> gives value
+print     -> just displays
+default arg-> must be last"""

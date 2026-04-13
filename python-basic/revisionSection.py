@@ -357,6 +357,68 @@ string loop -> value vs index
 
 """
 
+#class 10 :-
+"""
+PYTHON REVISION NOTES (While Loop + Break + Continue + Else):-
+
+1. While Loop :-
+Used when number of iterations is not known, only condition is known.
+a = 0
+while a < 5:
+    print(a)
+    a += 1
+
+2. Reverse Loop Example:-
+a = 10
+while a >= 0:
+    print(a)
+    a -= 1
+
+3. break Statement:-
+Stops the loop completely when condition is met.
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+
+4. continue Statement:-
+Skips current iteration and continues loop.
+for i in range(1, 6):
+    if i == 3:
+        continue
+    print(i)
+
+5. Loop with else (Important):-
+Else runs only when loop finishes without break.
+for i in range(1, 6):
+    print(i)
+else:
+    print("Done")
+for i in range(1, 6):
+    if i == 3:
+        break
+    print(i)
+else:
+    print("Done")  # will NOT run
+
+6. break vs continue :-
+YOUR MISTAKES:-
+
+Keyword -> Meaning
+break   -> Stops loop completely
+continue -> Skips current iteration
+1. Confusion in loop-else behavior
+2. Incorrect dry run in while loop
+3. Over-explaining instead of exact output
+
+SUMMARY:-
+Concept -> Key Point
+while   -> condition based loop
+break   -> exit loop
+continue -> skip iteration
+else     -> runs if no break
+"""
+
 #class 12 :-
 """
 PYTHON REVISION NOTES (Functions):-

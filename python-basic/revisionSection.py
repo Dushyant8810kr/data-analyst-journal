@@ -481,3 +481,47 @@ functionn -> reusability
 return    -> gives value
 print     -> just displays
 default arg-> must be last"""
+
+#Class 14 :-
+"""
+python Lists - Revision Notes
+Personalized notes based on your List class revision and mistakes.
+Important Concepts:-
+• List is an ordered, mutable, and heterogeneous data structure.
+• Lists can store multiple datatypes together.
+• Lists allow duplicate values.
+• Positive indexing starts from 0.
+• Negative indexing starts from -1.
+• Slicing syntax: start : stop : step.
+• Stop index in slicing is exclusive.
+• Lists are mutable, so values can be changed using indexing.
+• Traversal means accessing list elements one by one using loops.
+• Reference copy shares same memory location.
+• Shallow copy creates separate outer list but nested lists remain linked.
+• Deep copy creates fully independent copy.
+
+# Mistakes / Confusions :-
+• Deep copy concept was initially unclear.
+• Difference between shallow copy and deep copy was not properly explained.
+• List vs String difference needed more clarity.
+• Output formatting of lists missed brackets [].
+
+#Correct Understanding :-
+• Reference copy: both variables point to same memory location.
+• Shallow copy: outer list copied separately but nested lists still connected.
+• Deep copy: everything copied independently including nested lists.
+• List is mutable while string is immutable.
+• Lists print with square brackets [].
+
+#Important Outputs to Remember:-
+• print([10,20,30][:2]) → [10, 20]
+• Reference copy changes reflect in original list.
+• Shallow copy using .copy() does not affect outer list.
+• Nested lists still change in shallow copy.
+• Deep copy completely avoids shared changes.
+
+#Final Summary :-
+• Your understanding of indexing, slicing, and traversal is strong.
+• You correctly solved shallow copy and nested list questions.
+• Need slight improvement in exact theoretical definitions.
+"""

@@ -57,12 +57,14 @@ print(n) # this will change
 import copy
 
 k = [99,87,47,67]
-p = copy.deepcopy(k) # this means that they both targeting the same list or same location 
+p = copy.deepcopy(k) #completely diffrent list
+
+#the both lists are completely seperate objects.
 
 p[0]=100
 
-print(k) # the both list changes because they both targetting the same location or same list.
-print(p)
+print(k) # this will not change chane
+print(p) #this will change
 
 
 """
@@ -79,9 +81,14 @@ w2 = copy.deepcopy(q)       # Deep copy
 w1[0][0] = 999 
 w2[1][0] = 888
 
-print("original : ",a) # changed by shallow copy
+print("original : ",a) # changed by shallow copy #Shallow copy me outer list alag hoti hai but andar ke nested objects same reference share kar sakte hain.
 print("shallow : ",w1)
-print("Deep : ",w2)    # completely independent of changes in main list
+print("Deep : ",w2)    # completely independent of changes in main list #outer bhi separate ,inner objects bhi separate ,Isliye koi change reflect nahi hota.
+
+#output:-
+original :  [[999, 20], [30, 40]]
+shallow :  [[999, 20], [30, 40]]
+Deep :  [[10, 20], [888, 40]]
 """
 
 

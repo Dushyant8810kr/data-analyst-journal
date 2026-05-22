@@ -525,3 +525,40 @@ Important Concepts:-
 • You correctly solved shallow copy and nested list questions.
 • Need slight improvement in exact theoretical definitions.
 """
+
+#class 16 :-
+"""
+#Tuple Class Revision Notes:-
+
+Personalized notes based on your tuple class revision, mistakes, and improvements.
+#Important Notes :-
+• Tuple is an ordered, immutable, and heterogeneous data structure.
+• Tuples can store different datatypes together.
+• Tuples can store duplicate values.
+• Tuple indexing works exactly like list indexing.
+• Positive indexing starts from 0 and negative indexing starts from -1.
+• Tuple slicing syntax is same as list slicing: start : stop : step.
+• Tuples are immutable, so elements cannot be changed.
+• Tuple unpacking means assigning tuple values into multiple variables.
+• Single element tuple requires a comma: (1,)
+• Tuple methods are limited because tuples are immutable.
+• Important tuple methods: count() and index().
+#Your Mistakes / Blunders :-
+• You explained tuple definitions correctly but missed some technical keywords like ordered and
+immutable.
+• You were slightly confused about why (1) becomes int instead of tuple.
+• You thought brackets create tuple, but actually comma creates tuple.
+• You did not clearly explain why tuple has fewer methods.
+• You missed exact output formatting in some answers like and tuple brackets ().
+#Correct Understanding:-
+• (1) is treated as normal integer expression.
+• (1,) creates tuple because comma defines tuple.
+• Tuple is immutable, so modifying methods like append() are not available.
+• Tuples print with round brackets ().
+• Exact output formatting is important in coding interviews and debugging.
+#Final Summary L:-
+• Your tuple fundamentals are strong.
+• You clearly understand indexing, slicing, duplicates, and unpacking.
+• You solved output questions correctly with minor formatting mistakes.
+• Need slight improvement in technical explanations and exact outputs.
+• Overall performance in this class was very good."""

@@ -562,3 +562,42 @@ immutable.
 • You solved output questions correctly with minor formatting mistakes.
 • Need slight improvement in technical explanations and exact outputs.
 • Overall performance in this class was very good."""
+
+#class 17 :-
+"""
+#Set Class Revision Notes :-
+Personalized revision notes based on your Set class understanding, mistakes, and improvements.
+
+#-Important Notes:-
+• Set is an unordered and mutable data structure.
+• Set stores only unique values and removes duplicates automatically.
+• Sets can store only hashable values.
+• Hashable values include int, string, tuple, etc.
+• List cannot be stored in set because list is mutable and unhashable.
+• Set does not support indexing and slicing because of unordered nature.
+• Empty set is created using set(), not {}.
+• Tuple is hashable because it is immutable.
+• Important set operations include union, intersection, difference, and symmetric difference.
+• Traversal in set is done directly through values using loops.
+
+#Your Mistakes / Blunders:-
+• You confused hashable concept with unordered nature.
+• You thought tuple is stored because of unordered nature, but actual reason is
+immutability/hashability.
+• You missed the exact difference between remove() and discard().
+• You got confused in union operator output.
+• You sometimes missed exact output formatting like .
+
+#Correct Understanding :-
+• Hashable values have fixed hash values and are generally immutable.
+• Tuple is hashable because it is immutable.
+• List is mutable so it becomes unhashable.
+• remove() gives error if element is absent, discard() does not.
+• Union operator (|) returns all unique elements from both sets.
+• Symmetric difference (^) removes common elements and returns remaining unique elements.
+#Final Summary :-
+• Your understanding of set basics and operations is strong.
+• You clearly understood duplicate removal and unordered nature.
+• Most output questions were solved correctly.
+• Need improvement in technical explanation of hashable values.
+• Need to focus more on exact meanings of set operators."""

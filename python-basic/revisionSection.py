@@ -601,3 +601,45 @@ immutability/hashability.
 • Most output questions were solved correctly.
 • Need improvement in technical explanation of hashable values.
 • Need to focus more on exact meanings of set operators."""
+
+#class 18 :-
+"""Dictionary Class Revision Notes :-
+Personalized notes based on your Dictionary class understanding, mistakes, and improvements.
+#Important Notes :-
+• Dictionary stores data in key:value pair format.
+• Dictionary is mutable and ordered in modern Python versions.
+• Values are accessed using keys.
+• Keys should be unique and hashable.
+• Dictionary can store duplicate values but not duplicate keys.
+• Duplicate keys overwrite previous values.
+• Dictionary traversal can happen through keys, values, and items.
+• d[key] gives KeyError if key is absent.
+• d.get(key) safely returns None if key does not exist.
+• keys() returns dictionary keys.
+• values() returns dictionary values.
+• items() returns key:value pairs in tuple form.
+• update() merges dictionaries.
+• pop() removes specific key.
+• popitem() removes last inserted key:value pair.
+
+#Your Mistakes / Blunders
+• You thought duplicate keys cause error, but they overwrite previous values.
+• You confused d.get(key) with returning key instead of value/None.
+• You made formatting mistakes while printing traversal outputs.
+• You printed dictionary outputs in set-like format.
+• You forgot that traversing dictionary directly returns keys.
+
+#Correct Understanding :-
+• Duplicate keys overwrite old values and last value survives.
+• d.get(key) safely returns value or None.
+• for i in d returns keys only.
+• for i in d.values() returns values one by one.
+• Dictionary outputs use curly brackets {}.
+• Dictionary internally uses hashing for fast searching.
+
+#Final Summary:-
+• Your understanding of dictionary basics is strong.
+• You clearly understand key:value storage and mutability.
+• You solved most output questions correctly.
+• Need more focus on traversal behavior and exact output formatting.
+• Need slight improvement in get() vs indexing difference."""
